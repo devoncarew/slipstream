@@ -1,0 +1,19 @@
+{
+  "name": "slipstream",
+  "owner": {
+    "name": "Devon Carew"
+  },
+  "metadata.description": "The marketplace for the Flutter Slipstream plugin.",
+  "plugins": [
+    {
+      "name": "flutter-slipstream",
+      "source": {
+        "source": "github",
+        "repo": "devoncarew/flutter-slipstream"
+      },
+      "description": "Live Flutter app introspection for coding agents: screenshots, widget-tree inspection, tap/type/scroll, and error capture. Dart package API summarization for agents.",
+      "repository": "https://github.com/devoncarew/flutter-slipstream",
+      "license": "BSD-3-Clause"
+    }
+  ]
+}
