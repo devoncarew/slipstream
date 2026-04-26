@@ -3,7 +3,9 @@
   "owner": {
     "name": "Devon Carew"
   },
-  "metadata.description": "The marketplace for the Flutter Slipstream plugin.",
+  "metadata": {
+    "description": "The marketplace for the Flutter Slipstream plugin."
+  },
   "plugins": [
     {
       "name": "flutter-slipstream",
