@@ -19,8 +19,14 @@ plugin that makes AI coding agents more effective for Dart and Flutter projects.
 
 ## Installation
 
-| Coding Agent   | Installing Slipstream                                                                                            |
-| -------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Claude Code    | `claude plugin marketplace add devoncarew/slipstream` <br> `claude plugin install flutter-slipstream@slipstream` |
-| GitHub Copilot | `copilot plugin install devoncarew/flutter-slipstream`                                                           |
-| Gemini CLI     | `gemini extensions install https://github.com/devoncarew/flutter-slipstream`                                     |
+| Coding Agent   | Installing Slipstream                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Claude Code \* | `claude plugin marketplace add devoncarew/slipstream` <br> `claude plugin install flutter-slipstream@slipstream`   |
+| GitHub Copilot | `copilot plugin marketplace add devoncarew/slipstream` <br> `copilot plugin install flutter-slipstream@slipstream` |
+| Gemini CLI     | `gemini extensions install https://github.com/devoncarew/flutter-slipstream`                                       |
+
+> [!NOTE]
+> If you see a "Failed to install plugin ... No ED25519 host key is
+> known for github.com ... Host key verification failed" error, see
+> anthropics/claude-code/issues/26588 / anthropics/claude-code/issues/50725 for
+> possible workarounds.
