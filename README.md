@@ -14,8 +14,9 @@ plugin that makes AI coding agents more effective for Dart and Flutter projects.
 - **Accurate package APIs** — retrieve any package's public API directly from
   the local pub cache as a compact Dart stub, version-matched and free of
   implementation noise.
-- **Package validation hooks** — catch discontinued packages and outdated major
-  versions before they land in `pubspec.yaml`.
+- **Package safety guidance** — the bundled skill instructs agents to read pub
+  command output for discontinued packages and outdated major versions, and take
+  corrective action before bad dependencies land.
 
 ## Installation
 
@@ -26,7 +27,8 @@ plugin that makes AI coding agents more effective for Dart and Flutter projects.
 | Gemini CLI     | `gemini extensions install https://github.com/devoncarew/flutter-slipstream`                                       |
 
 > [!NOTE]
-> If you see a "Failed to install plugin ... No ED25519 host key is
-> known for github.com ... Host key verification failed" error, see
+>
+> If you see a "Failed to install plugin ... No ED25519 host key is known for
+> github.com ... Host key verification failed" error, see
 > anthropics/claude-code/issues/26588 / anthropics/claude-code/issues/50725 for
 > possible workarounds.
